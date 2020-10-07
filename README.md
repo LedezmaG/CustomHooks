@@ -1,16 +1,17 @@
 # CustomHooks
 Custom hooks
 Repositorio con multiples customHooks de utilidad 
- * useFetch *
- Manejo de llamadas fetch
- Ejemplo de uso:
+ * useFetch
+ - Manejo de llamadas fetch
+ - Ejemplo de uso:
  ```
  const url = 'endPoint';
  const { data: null, loading: null, error: null } = useFetch( url );
  ```
  
- * useForm *
- Manejo de formularios
+ * useForm 
+  - Manejo de formularios
+  - Ejemplo de uso:
  ```
  const initialForm = {
   name: '',
@@ -20,9 +21,9 @@ Repositorio con multiples customHooks de utilidad
  const [ formValue, handeInputChange, reset ] = useForm( initialForm );
  ``` 
  
- * useCounter *
- Manejo de contadores
- Ejemplo de uso:
+ * useCounter 
+ - Manejo de contadores
+ - Ejemplo de uso:
  ```
  const { counter, increment, decrement, reset } = useCounter( 10 );
  ```
